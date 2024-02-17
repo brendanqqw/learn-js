@@ -1,0 +1,22 @@
+NUMBERS - one of the datatypes in JavaScript it maybe a whole number or a decimal
+There are two tyypes of numbers in JavaScript
+Integer - Whole numbers
+Float - Decimal Numbers
+
+Value               Type (single quote or double quote is string)
+
+5                   number(int)
+3.14                number(float)
+"12"                string
+'3.1376'            string
+6.54238             number(float)
+
+//Converts String to Integer
+let num = parseInt("5);
+
+//Converts String to Decimal
+let pi = parseFloat("3.14");
+
+*Unsuccessful conversions will result into a NaN (Not A Number) Value
+
+//
