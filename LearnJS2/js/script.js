@@ -1,7 +1,6 @@
-let a = 13;
-let b = 19.8;
-let c = "World Hello";
+let firstName = "Brendan";
+let pi = 3.14;
 
-console.log(a);
-console.log(b);
-console.log(c);
+alert("Hello, " + firstName);
+alert("How are you doing " + firstName + "?");
+alert(firstName + ", The value of pi is " + pi);
