@@ -1,0 +1,12 @@
+<script>
+    console.log("Hello World!")
+    console.log("World Hello!")
+</script>
+
+// For Mobiles
+
+<srcipt>
+    document.getElementById(someText).innerHTML = "Hello Brendan";
+</script>
+
+<h1 id="someText"></h1>
