@@ -19,4 +19,207 @@ let pi = parseFloat("3.14");
 
 *Unsuccessful conversions will result into a NaN (Not A Number) Value
 
-//
+//Converting String to Integer Example
+
+let num1 = "12";
+let num2 = 2;
+
+alert(parseInt(num1) + num2);
+
+Result will show 14 insted of 122
+
+//You can also do 
+
+let num1 = "12";
+let num2 = 2;
+
+num1 = parseInt(num1);
+
+alert(num1 + num2);
+
+
+//If it has letters it will result to NaN (Not A Number)
+
+let num1 = "asdsad12";
+let num2 = 2;
+
+num1 = parseInt(num1);
+
+alert(num1 + num2);
+
+
+//If the words is in the middle it will find the first number so the result will be 3 because of 1+2 = 3
+let num1 = "1dasdad2";
+let num2 = 2;
+
+num1 = parseInt(num1);
+
+alert(num1 + num2);
+
+// This example will not add because parseInt is always round down so the result will be 15
+
+let num1 = "15.53";
+num1 = parseInt(num1);
+alert(num1);
+
+
+// So with these code it will be 16
+let num1 = "15.99";
+let num2 = 0.01;
+
+num1 = parseFloat(num1);
+alert(num1 + num2);
+
+
+// With these code it will result to 15.990.01 because its a string
+
+let num1 = "15.99";
+let num2 = 0.01;
+
+alert(num1 + num2);
+
+
+// Parsing in this line of code would only result to 5 a whole number because as long as it is 0 it will still result to the number unless you add 1
+
+let num1 = parseFloat(5.00);
+alert(num1);
+
+// If adding a different number other than 0 like this example this would result to 5.001
+
+let num1 = parseFloat(5.001);
+alert(num1);
+
+IMPORTANT (USE ONLY parse if the value is a string)
+//Example
+
+let num1 = 5.001;
+alert(num1);
+
+
+//Assignment Operator
+
+Operator            Function               Example
+=                   Assignment             let num = 12
+
+
+//Arithmetic Operators
+
+Operator            Function               Example
++                   Addition                5 + 5
+-                   Subtraction             5 - 5
+*                   Multiplication          5 * 5
+/                   Divsion                 5 / 5
+**                  Exponent                5 ** 2
+%                   Modulus (Remainder)     5 % 2
+
+Operators can be applied to variables as well
+
+//Arithmetic Precedence
+PEMDAS is followed in the order of Precedence
+1. Parenthesis
+2. Exponent
+3. Multiplication
+4. Division
+5. Addition
+6. Subtraction
+
+//Example the total would be 3 because 5 + 10 = 15 and x is 5 so 15 / 5 is 3 so total is 3
+
+let x = 5;
+let y = 10;
+console.log((x + y)/x);
+
+//Example (use PEMDAS) first divide x and y so x is 12 and y is 3 12 / 3 is equal to 4 and 4 plus x which is 12 is total to 16
+let x = 12;
+let y = 3;
+
+console.log(x/y+x);
+
+
+//Arithmetic Examples
+let x = 5;
+let y = 2;
+
+//Multiplication
+alert(x * y);
+
+//Division
+alert(x / y);
+
+//Modulus
+alert(x % y);
+
+//Exponent
+alert(x ** y);
+
+//Addition
+alert(x + y);
+
+//Subtraction
+alert(x - y);
+
+
+// Another Example
+let num1 = 5;
+let num2 = 2;
+let num3 = 7;
+
+alert((num1 - num3) + num2 ** num2);
+//5 - 7 = -2 
+// 2 ** 2 = 4
+// -2 + 4 = 2             so 2 is the answer
+
+
+//Shorthand Operators
+Performs an Arithmetic operator to a variable and assigns to itself
+
+Operator            Usage               Same as
++=                  x += 5              x = x + 5
+-=                  x -= 5              x = x - 5
+*=                  x *= 5              x = x * 5
+/=                  x /= 5              x = x / 5
+**=                 x **= 5             x = x ** 5
+%=                  x %= 5              x = x % 5
+
+//Example Shorthand Operators
+let num = 5
+
+num += 5;
+alert(num)
+
+logic num is 5 so num which is 5 + 5 is equals to 10
+
+//Same logic as this below this is also equals to 10
+let num = 5
+num = num + 5;
+
+alert(num);
+
+//Another Example would be like this you can assign a different variable
+let num = 5
+let x = 2
+
+num += x;
+
+alert(num);
+
+//Another Example the answer would be 9
+
+let num = 5
+let x = 2
+
+num += (x ** 2);
+
+alert(num);
+
+//Another Example
+let num = 5
+
+num **= 5;
+alert(num)
+
+logic 5 x 5 x 5 x 5 x 5 = 3125
+
+
+//Increment  / Decrement
+Adds / Subtracts 1 to a variable
