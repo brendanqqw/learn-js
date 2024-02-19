@@ -7,3 +7,5 @@ let mapeh = 85;
 
 let average = (math + english + science + filipino + mapeh) /5;
 alert("Your Average is : " + average);
+
+console.log("Your Average is : " + average);
