@@ -223,3 +223,61 @@ logic 5 x 5 x 5 x 5 x 5 = 3125
 
 //Increment  / Decrement
 Adds / Subtracts 1 to a variable
+
+Operator            Usage           Description
+++                 ++x or x++       Adds 1
+--                 --x or x--       Subtracts 1
+
+//Prefix
+let x = 0;
+
+console.log(++x); //Output:1 it adds 1 first before it shows
+console.log(x); //Output:1
+
+
+//Another Prefix Example
+
+let num = 0;
+
+alert(++num);
+
+//Another Prefix Example
+
+let num = 0;
+
+++num // 
+alert(num);
+
+
+//Example for Subtraction
+let num = 0;
+
+alert(--num); //Output is negative 1 so -1
+
+
+//Post fix
+let x = 0;
+
+console.log(x++); //Output:0 it will first console log the x before it will add 1
+console.log(x); //Output:1
+
+
+//Another Post Fix Example
+let num = 0;
+
+alert(num++); //It shows first the num which is 0
+alert(num); //Then it will now add the 1 here so the 2nd alert is 1
+
+
+//Another Post Fix Example
+let num = 0;
+
+num++ //it adds the 1 here 
+alert(num); //then it shows the 1 here because in the 3rd line of code wala naman siyang ginawa kundi mag add
+
+
+//Post fix Suntraction
+let num = 0;
+
+alert(num--); //shows or alert the zero first 0 
+alert(num); // 0 - 1 = -1 so it will show -1

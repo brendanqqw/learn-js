@@ -1,6 +1,4 @@
-let num = 5
-let x = 2
+let num = 0;
 
-num += (x ** 2);
-
+alert(num--);
 alert(num);
