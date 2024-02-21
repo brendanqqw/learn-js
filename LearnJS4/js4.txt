@@ -84,3 +84,80 @@ let word = " Hello ";
 word = word.trim();
 alert(word.length);
 //Output: 5
+
+//trimEnd Example removes the space at the end so it is now " Hello"
+let word = " Hello ";
+word = word.trimEnd();
+alert(word);
+//Output:  Hello
+
+//trimStart Example removes the space at the start so it is now "Hello "
+let word = "Hello ";
+word = word.trimStart();
+alert(word);
+//Output: Hello 
+
+
+Methods                 Usage                           Description
+replace()               word.replace(from, to);         Replaces frist matching word on a string
+replaceAll()            word.replaceAll(from, to);      Replaces all matching words on a string
+
+//Example for replace() it is also case sensitive, the result is "I have a cat, my dog is cute" the first string was changed into cat but not the 2nd string dog
+let s = "I have a dog, my dog is cute.";
+s= s.replace("dog", "cat");
+alert(s);
+//Output: I have a cat, my dog is cute
+
+
+//Example for replaceAll() the result is "I have a cat, my cat is cute" because it relaces all string which has "dog" to "cat"
+let s = "I have a dog, my dog is cute.";
+s= s.replaceAll("dog", "cat");
+alert(s);
+//Output: I have a cat, my cat is cute
+
+//String Methods
+Methods                 Usage                           Description
+slice()               word.slice(start, end);           Gets a part of a string by specifying the start and end index
+
+//Example for slice *Always add 1 index to include the letter u want*
+let s = "I have a dog, my dog is cute.";
+s= s.slice(2, 6);
+alert(s);
+//Output: have
+
+//Another Example
+let s = "I have a dog, my dog is cute.";
+s= s.slice(9, 12);
+alert(s);
+//Output: dog;
+
+
+//String Template Literals, it is used so that u can use "" and '' or special characters inside the string
+Create string values by using ``(backticks).
+let word = `String "Literals"`;
+alert(word);
+//Output: String "Literals"
+
+*You can use ${} to add an expression inside a string such as variables or mathematical expressions.*
+
+//Another Example
+let name = "David"
+alert(`Hi, ${name}`);
+//Output: Hi, David
+
+
+//EXAMPLE
+//Instead of This
+let name = "Brendan"
+alert("Hi, " + name + ".");
+//You can use this to lessen your code no + sign and its the same.
+let name2 = "Raul";
+alert(`Hi, ${name2}. Welcome to Jolibee`);
+
+//ANOTHER EXAMPLE
+//INSTEAD OF THIS WHICH IS CONFUSING TO CONCATENATE
+let num1 = 5;
+let num2 = 3;
+let sum = num1 + num2;
+alert(num1 + " + " + num2 + " = " + sum);
+//Output : 5 + 3 = 8
