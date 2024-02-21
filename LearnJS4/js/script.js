@@ -1,3 +1,3 @@
-let word1 = "Brendan";
-let len1 = word1.length;
-alert(len1);
+let word = " Hello ";
+word = word.trim();
+alert(word.length);

@@ -12,7 +12,7 @@ true                    Bolean
 'Hello World'           String
 
 
-String Length
+//String Length
 
 let word1 = "Hello World";
 let len1 = word1.length;
@@ -25,3 +25,62 @@ console.log(len1);
 //Output: 10
 
 .length is a property that gives the number of characters in a string.
+
+
+//String Indices
+Individual characters can be accessed by using an index
+
+let name = "David"
+
+Elements | D A V I D
+index    | 0 1 2 3 4
+
+let name = "David"
+console.log(name[0]);
+//Output: D 
+
+//Another Example with variable
+let word = "Hello"
+let x = 1;
+alert(word[x]);
+//Output: e
+
+
+We use [] square brackets to access the indices of a string
+
+// * INDEX STARTS AT 0 WHILE LENGTH STARTS AT 1 *
+let name = "Alenereadasdasd";
+alert(name[name.length-1]);
+
+
+//String Methods
+These different methods can manipulate strings in different ways
+
+Methods                 Usage                       Description
+toUpperCase()           word.toUpperCase();         Turns string to uppercase
+toLowerCase()           word.toLowerCase();         Turns string to lowercase
+trim()                  word.trim();                Removes extra spaces on start and end of a string
+trimEnd()               word.trimEnd();             Removes extra spaces on the end of a string
+trimStart()             word.trimStart();           Removes extra spaces on the start
+
+
+//toUpperCase
+let word = "Hello";
+alert(word.toUpperCase());
+//Output: HELLO
+
+//toLowerCase
+let word = "Hello";
+alert(word.toLocaleLowerCase());
+//Output: hello
+
+//toLowerCase with Variable word
+let word = "Hello";
+word = word.toLocaleLowerCase()
+alert(word);
+
+//trim Example the string is 7 because of spaces now the output is 5 because trim removes the beginning and end spaces
+let word = " Hello ";
+word = word.trim();
+alert(word.length);
+//Output: 5
