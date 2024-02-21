@@ -161,3 +161,18 @@ let num2 = 3;
 let sum = num1 + num2;
 alert(num1 + " + " + num2 + " = " + sum);
 //Output : 5 + 3 = 8
+
+//YOU CAN USE THIS BACKTICKS, same output but different solution but more efficient
+let num1 = 5;
+let num2 = 3;
+let sum = num1 + num2;
+alert(`${num1} + ${num2} = ${sum}`)
+//Output : 5 + 3 = 8
+
+
+//ALTERNATIVELY U CAN ALSO USE THIS JUST REMOVE THE SUM VARIABLE AND ADD The ${num+num2} on the string literal and you wil get the same output
+let num1 = 5;
+let num2 = 3;
+alert(`${num1} + ${num2} = ${num1+num2}`);
+
+
