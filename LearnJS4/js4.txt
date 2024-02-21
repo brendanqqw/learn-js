@@ -1,3 +1,27 @@
 STRINGS
 One of the datatypes in JavaScript. It maybe a character, word or sentence
 surrounded by "" or ''. They are used to display text information
+
+Quick Exercise
+
+Value                   Type
+true                    Bolean
+"false"                 String
+"12"                    String
+64                      Number
+'Hello World'           String
+
+
+String Length
+
+let word1 = "Hello World";
+let len1 = word1.length;
+console.log(len1);
+//Output: 11
+
+let word1 = "HelloWorld";
+let len1 = word1.length;
+console.log(len1);
+//Output: 10
+
+.length is a property that gives the number of characters in a string.
