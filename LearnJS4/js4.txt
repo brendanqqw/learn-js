@@ -1,0 +1,3 @@
+STRINGS
+One of the datatypes in JavaScript. It maybe a character, word or sentence
+surrounded by "" or ''. They are used to display text information
