@@ -1,0 +1,21 @@
+Arrays
+- A Varibale that can store multiple values. The values inside an arrary
+is called an element.
+
+The number where an element is located is called the index.
+
+//Creating Arrays
+
+//Array of Strings
+let names = ["Alenere", "David", "Jaymar", "Maye"];
+
+//Array of Numbers
+let numbers = [3, 6.5, 9.35, 12.75, 7, 2];
+
+//Array of Mixed datatypes
+let mixed = ["Alenere", 99, "David", true, 3.99];
+
+//Empty Array
+let dummy = [];
+
+*You can create any array with different datatypes*
