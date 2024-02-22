@@ -62,3 +62,47 @@ alert(names[names.length-1]);
 let names = ["Brendan", "Raul", "Jomar", "Jasper"];
 alert(names[2]);
 //Output: Jomar
+
+
+//Updating Arrays
+We need to specify the index in order to change / add a certain
+element value.
+
+//Syntax
+identifier[index] = value;
+
+//Example
+let cars = ["Yaris", "Innova"];
+cars[1] = "Sentra";
+
+//Another Example
+let names = ["Brendan", "Raul", "Jomar", "Jasper"];
+names[0] = "Brandon";
+alert(names[0]);
+//Output: Brandon
+
+//Another Example (Adding New String)
+let names = ["Brendan", "Raul", "Jomar", "Jasper"];
+names[4] = "Brandon";
+alert(names);
+//Output: Brendan,Raul,Jomar,Jasper,Brandon
+
+//There are more ways to add an elmment on the array.
+Method              Function
+length              Use length as an index to add an element to the last index
+push(value)         Adds an element on the last index
+unshift(value)      Adds an element on the first index
+
+//Example
+let cars = ["Yaris", "Innova"];
+
+//Add using LENGTH ADD ELEMENT TO THE LAST INDEX
+cars[cars.length] = "Sentra"; 
+
+//Add using push(value) LAST INDEX
+cars.push("Juke");
+
+//Add using unshift(value) FIRST INDEX
+cars.unshift("Lancer");
+alert(cars);
+//Output: Lancer,Yaris,Innova,Sentra,Juke
