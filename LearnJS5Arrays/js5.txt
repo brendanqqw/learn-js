@@ -19,3 +19,46 @@ let mixed = ["Alenere", 99, "David", true, 3.99];
 let dummy = [];
 
 *You can create any array with different datatypes*
+
+//Examples Array
+let names = ["Brendan", "Raul", "Jomar", "Jasper"];
+let numbers = [1, 2, 3, 4, 5];
+let mixed = [true, 2.46, "Brendan"];
+
+alert(names);
+
+
+//Array Length
+We can use the length property to get the length of an array.
+let names = ["Brendan", "Raul", "Jomar", "Jasper"];
+alert(names.length);
+//The Length of this Array is 4 Output: 4
+
+*LENGTH STARTS AT 1 WHILE INDEX STARTS AT 0*
+
+//Array Structure
+let names = ["Brendan", "Raul", "Jomar", "Jasper"];
+
+Elements        Brendan     Raul        Jomar       Jasper
+Index           0           1           2           3
+
+//Reading Arrays
+We need to specify the index in order to access a certain element value
+
+//Syntax
+identifer[index];
+
+//Example
+let cars = ["Yaris", "Innova"];
+alert(cars[0])
+//Output: Yaris
+
+//Another Example
+let names = ["Brendan", "Raul", "Jomar", "Jasper", "Edward"];
+alert(names[names.length-1]);
+//Output: Edward
+
+//Another Example
+let names = ["Brendan", "Raul", "Jomar", "Jasper"];
+alert(names[2]);
+//Output: Jomar
