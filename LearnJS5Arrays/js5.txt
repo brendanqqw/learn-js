@@ -105,4 +105,5 @@ cars.push("Juke");
 //Add using unshift(value) FIRST INDEX
 cars.unshift("Lancer");
 alert(cars);
+
 //Output: Lancer,Yaris,Innova,Sentra,Juke
