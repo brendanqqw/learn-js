@@ -89,6 +89,7 @@ alert(names);
 
 //There are more ways to add an elmment on the array.
 Method              Function
+
 length              Use length as an index to add an element to the last index
 push(value)         Adds an element on the last index
 unshift(value)      Adds an element on the first index
@@ -107,9 +108,41 @@ cars.unshift("Lancer");
 alert(cars);
 //Output: Lancer,Yaris,Innova,Sentra,Juke
 
-//Another Example
+//Another Example Uneffecient way
 let names = ["David", "Alenere"];
 names[names.length] = "Jaymar";
 names[names.length] = "Maye";
 alert(names);
 //Output: David,Alenere,Jaymar,Maye
+
+//An Example for unshift
+let names = ["David", "Alenere"];
+names.unshift("Jaymar");
+names.unshift("Maye");
+alert(names);
+//Output : Maye,Jaymar,David,Alenere
+
+
+/DELETING Arrays
+There are many ways to DELETE an element on the array.
+Method                  Function
+
+length                  Change length to desired number.
+pop()                   Deletes the last element
+shift()                 Deletes the first element
+slice(start, end)       Gets a part of the array
+
+//Example
+let names = ["Alenere", "David", "Jaymar", "Maye". "Ace"];
+
+//DELETE using LENGTH
+names.length = 4;
+
+//DELETE using pop()
+names.pop();
+
+//DELETE using shift();
+names.shift();
+
+//DELETE using slice(start_index, end_index)
+name.slice(0,2);
