@@ -185,3 +185,17 @@ names.shift();
 names.pop();
 alert(names);
 //Output: Jaymar,Maye
+
+//Example for slice
+let names = ["Alenere","David","Jaymar","Maye","Ace"];
+
+names = names.slice(0,2);
+alert(names);
+//Output: Alenere,David
+
+//Another Example for slice
+let names = ["Alenere","David","Jaymar","Maye","Ace"];
+
+names = names.slice(2,4);
+alert(names);
+//Output: Jaymar,Maye

@@ -1,7 +1,6 @@
-let names = ["Alenere", "David", "Jaymar", "Maye", "Ace"];
+let names = ["Alenere","David","Jaymar","Maye","Ace"];
 
-names.shift();
-names.shift();
-names.pop();
+names = names.slice(2,4);
 alert(names);
+
 //Output: Jaymar,Maye
