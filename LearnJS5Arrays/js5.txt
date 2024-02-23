@@ -161,3 +161,27 @@ let names = ["Alenere", "David", "Jaymar", "Maye", "Ace"];
 names.pop();
 alert(names);
 //Output: Alenere, David, Jaymar, Maye
+
+//Another example for pop
+let names = ["Alenere", "David", "Jaymar", "Maye", "Ace"];
+
+names.pop();
+names.pop();
+alert(names);
+//Output: Alenere, David, Jaymar
+
+//EXAMPLE for shift (remove the first ndex)
+let names = ["Alenere", "David", "Jaymar", "Maye", "Ace"];
+
+names.shift();
+alert(names);
+//Output: David,Jaymar,Maye,Ace
+
+//Example for combining
+let names = ["Alenere", "David", "Jaymar", "Maye", "Ace"];
+
+names.shift();
+names.shift();
+names.pop();
+alert(names);
+//Output: Jaymar,Maye
