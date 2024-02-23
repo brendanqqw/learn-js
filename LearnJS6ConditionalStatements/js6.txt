@@ -1,0 +1,45 @@
+Conditional Statements
+- Are statements that executs actions depending on
+different conditions.
+- They are used with Comparison Operators and Logical Operators.
+
+Comparison Operators
+Are operators used to compare 2 values.
+
+Operator                    Description
+
+==                          Equal
+===                         Equal Value and Type
+!=                          Not Equal
+!==                         Not Equal Value and Type
+
+----- Always outputs true or false (only bolean) -------
+
+//EXAMPLES
+
+console.Logical(5 == "5");
+//Output: true
+
+console.log( 5 === "5");
+//Output: false
+
+console.log(5 != "5");
+//Output: false
+
+console.log(5 !== "5");
+//Output: true
+
+
+//
+let x = 5;
+console.Logical(x == "5");
+//Output: true
+
+console.log(x === "5");
+//Output: false
+
+console.log(x != "5");
+//Output: false
+
+console.log(x !== "5");
+//Output: true
