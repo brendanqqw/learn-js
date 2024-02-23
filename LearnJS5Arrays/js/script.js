@@ -1,4 +1,5 @@
-let names = ["Alenere", "David", "Jaymar", "Maye". "Ace"];
+let names = ["Alenere", "David", "Jaymar", "Maye", "Ace"];
 
-//DELETE using LENGTH
-names.length = 4;
+names.pop();
+alert(names);
+//Output: Alenere, David, Jaymar, Maye

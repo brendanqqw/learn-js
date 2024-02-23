@@ -146,3 +146,18 @@ names.shift();
 
 //DELETE using slice(start_index, end_index)
 name.slice(0,2);
+
+
+//Another Example for LENGTH
+let names = ["Alenere", "David", "Jaymar", "Maye", "Ace"];
+
+names.length = 2;
+alert(names);
+//Output: Alenere, David
+
+//Example for POP (removes the last index)
+let names = ["Alenere", "David", "Jaymar", "Maye", "Ace"];
+
+names.pop();
+alert(names);
+//Output: Alenere, David, Jaymar, Maye
