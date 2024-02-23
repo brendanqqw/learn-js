@@ -17,7 +17,7 @@ Operator                    Description
 
 //EXAMPLES
 
-console.Logical(5 == "5");
+console.log(5 == "5");
 //Output: true
 
 console.log( 5 === "5");
@@ -32,7 +32,7 @@ console.log(5 !== "5");
 
 //
 let x = 5;
-console.Logical(x == "5");
+console.log(x == "5");
 //Output: true
 
 console.log(x === "5");
