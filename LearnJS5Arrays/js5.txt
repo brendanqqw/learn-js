@@ -105,5 +105,11 @@ cars.push("Juke");
 //Add using unshift(value) FIRST INDEX
 cars.unshift("Lancer");
 alert(cars);
-
 //Output: Lancer,Yaris,Innova,Sentra,Juke
+
+//Another Example
+let names = ["David", "Alenere"];
+names[names.length] = "Jaymar";
+names[names.length] = "Maye";
+alert(names);
+//Output: David,Alenere,Jaymar,Maye
