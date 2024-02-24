@@ -1,11 +1,13 @@
-let experience = 5;
-let language = "C++";
+//NOT OPERATOR
+//INVERTS the result of a CONDITION
 
-if (experience > 1 || language === "C#") {
-  console.log("You are qualified!");
-} else {
-  console.log("You are not qualified!");
-}
+let hasDegree = true;
+let experience = 3;
 
-// Output: You are qualified!
-//Explanation: The condition experience > 1 || language === "C#" is true because the first part of the condition is true. The first part of the condition is true because the value of the variable experience is greater than 1. Therefore, the code block inside the if statement is executed, and the message You are qualified! is printed to the console.
+console.log(!hasDegree);
+//Output: false
+//Explanation: The value of hasDegree is true, but the NOT operator inverts the result of the condition, so the output is false.
+
+console.log(!(experience > 1));
+//Output: false
+//Explanation: The value of experience is 3, and the condition is true, but the NOT operator inverts the result of the condition, so the output is false.
