@@ -131,3 +131,63 @@ alert(x >= y);
 alert(x <= y);
 // Output: true
 // Explanation: The value of x is 12 and the value of y is "15". The less than or equal to operator (<=) compares the values of x and y. Since the value of x is less than the value of y, the output is true.
+
+
+//IF Statement
+Uses the IF keyword and {} to check for a certain conditions
+
+let age = 18;
+
+if (age >= 18) {
+  console.log("Legal Age");
+}
+
+console.log("Thank You!");
+
+//Output: Legal Age
+//        Thank You!
+
+//Explanation: The if statement checks if the age is greater than or equal to 18. Since the age is 18, the condition is true and the code inside the if block is executed. The console.log("Legal Age") statement is executed. After the if block, the console.log("Thank You!") statement is executed.
+
+
+//ELESE Statement
+let age = 13;
+
+if (age >= 18) {
+  console.log("Legal Age");
+  console.log("You are allowed to drink alcohol");
+} else {
+  console.log("Underage");
+}
+
+console.log("Thank You!");
+
+//Output : Underage
+//         Thank You!
+//Explanation : The value of age is 13. The condition age >= 18 is false. So, the else block is executed. The output is Underage and Thank You!.
+
+
+//ELSE IF Statement
+Uses the ELSE IF keyword and {} it is used in combination with the IF keyword if
+you want additinal specific conditions. You can add as many as you want.
+
+let age = 11;
+
+if (age >= 18) {
+  console.log("Legal Age");
+} else if (age <= 0) {
+  console.log("Invalid Age");
+} else {
+  console.log("Minor Age");
+}
+
+console.log("Tnak you!");
+
+//Output: Invalid Age
+//        Tnak you!
+
+
+*ELSE IF runs sequentially when the IF comparison is false*
+
+
+//
