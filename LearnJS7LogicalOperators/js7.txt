@@ -15,12 +15,44 @@ Both CONDITIONS should be true
 
 let age = 18;
 let experience = 3;
+let language = "JavaScript";
 
-console.log(age >= 18 && experience > 1);
+console.log(age >= 18 && experience > 1 && language === "JavaScript");
 //Output: true
-//Explanation: Both conditions are true, so the result is true.
+//Explanation: All three conditions are true, so the result is true.
 
 console.log(age >= 18 && experience > 3);
 //Output: false
 //Explanation: The first condition is true, but the second condition is false, so the result is false.
+
+
+//With IF and ELSE STATEMENT
+let age = 18;
+let experience = 0;
+let language = "JavaScript";
+
+if (age >= 18 && experience > 1 && language === "JavaScript") {
+  console.log("You are qualified for the Job.");
+} else {
+  console.log("You are not qualified for the Job.");
+}
+
+//Output: You are not qualified for the Job.
+// Explanation: The first condition is true, bu
+
+
+//OR Operator
+//Either CONDITIONS SHOULD BE TRUE
+
+let hasDegree = true;
+let experience = 3;
+
+console.log(hasDegree || experience > 2);
+//Output: true
+//Explanation: hasDegree is true, so the condition is true.
+
+console.log(hasDegree || experience > 4);
+//Output: true
+//Explanation: hasDegree is true, so the condition is true.
+
 

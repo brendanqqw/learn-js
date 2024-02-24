@@ -1,10 +1,13 @@
-let age = 18;
+//OR Operator
+//Either CONDITIONS SHOULD BE TRUE
+
+let hasDegree = true;
 let experience = 3;
 
-console.log(age >= 18 && experience > 1);
+console.log(hasDegree || experience > 2);
 //Output: true
-//Explanation: Both conditions are true, so the result is true.
+//Explanation: hasDegree is true, so the condition is true.
 
-console.log(age >= 18 && experience > 3);
-//Output: false
-//Explanation: The first condition is true, but the second condition is false, so the result is false.
+console.log(hasDegree || experience > 4);
+//Output: true
+//Explanation: hasDegree is true, so the condition is true.
