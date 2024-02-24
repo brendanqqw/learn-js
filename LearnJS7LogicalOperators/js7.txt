@@ -93,3 +93,34 @@ console.log(!hasDegree);
 console.log(!(experience > 1));
 //Output: false
 //Explanation: The value of experience is 3, and the condition is true, but the NOT operator inverts the result of the condition, so the output is false.
+
+
+//ANOTHER EXAMPLE NOT OPERATOR
+let isTall = true;
+
+if (!isTall) {
+  console.log("You are tall");
+} else {
+  console.log("You are small");
+}
+
+//Output: You are small
+//Explanation: The ! operator is used to reverse the value of the variable. If the value is true, it will be false and vice versa. In this case, the value of isTall is true, so the output will be "You are small".
+
+
+//NESTED Conditional Statements
+//You can nest conditional statements inside a conditional statement
+
+let age = 16;
+let experience = 1;
+
+if (age >= 18) {
+  if (experience >= 1) {
+    console.log("You are hired!");
+  } else {
+    console.log("You do not have enough experience");
+  }
+} else {
+  console.log("You are not old enough to work");
+}
+
