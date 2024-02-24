@@ -1,32 +1,31 @@
-console.log(5 == "5");
-//Explanation is 5 equal to 5 answer: true
+console.log(13 > 10);
 //Output: true
+//Explanation: 13 is greater than 10, so the output is true.
 
-console.log(5 === "5");
-//Explanation is 5 straight equal to 5? the answer is false because 5 is not a number its a string so the answer is false
-//Output: false
-
-console.log(5 != "5");
-//Explanation is 5 not equal to 5? the answer is false because 5 is equal to 5
-//Output: false
-
-console.log(5 !== "5");
-//Explanation is 5 not straight equal to 5? the answer is true because 5 is not a number its a string so the answer is true
+console.log(5 < 10);
 //Output: true
+//Explanation: 5 is less than 10, so the output is true.
 
-let x = 5;
-console.log(x == "5");
-//Explanation is x which is 5 equal to 5? answer: true
+console.log(5 >= 5);
 //Output: true
+//Explanation: 5 is greater than or equal to 5, so the output is true.
 
-console.log(x === "5");
-//Explanation is x which is 5 straight equal to 5? the answer is false because 5 is not a number its a string so the answer is false
-//Output: false
-
-console.log(x != "5");
-//Explanation is x which is 5 not equal to 5? the answer is false because 5 is equal to 5
-//Output: false
-
-console.log(x !== "5");
-//Explanation is x which is 5 not straight equal to 5? the answer is true because 5 is not a number its a string so the answer is true
+console.log(5 <= 7);
 //Output: true
+//Explanation: 5 is less than or equal to 7, so the output is true.
+
+console.log(10 > 10);
+//Output: false
+//Explanation: 10 is not greater than 10, so the output is false.
+
+console.log(10 < 10);
+//Output: false
+//Explanation: 10 is not less than 10, so the output is false.
+
+console.log(10 >= 10);
+//Output: true
+//Explanation: 10 is greater than or equal to 10, so the output is true.
+
+console.log(10 <= 10);
+//Output: true
+//Explanation: 10 is less than or equal to 10, so the output is true.

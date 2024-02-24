@@ -47,3 +47,66 @@ console.log(x != "5");
 console.log(x !== "5");
 //Explanation is x which is 5 not straight equal to 5? the answer is true because 5 is not a number its a string so the answer is true
 //Output: true
+
+
+//Another Example
+let x = 10;
+let y = 12;
+
+alert(x == y);
+//Output: false
+
+//Another Example
+let x = "Hello World";
+let y = "hello world";
+
+alert(x === y);
+//Output: False
+//Explanation: because of case sensitivity
+
+
+//COMPARISON Operators
+Operators used to compare 2 values.
+
+Operator                    Description
+
+>                           Greater Than
+<                           Less Than
+>=                          Greater Than or Equal
+<=                          Less Than or Equal
+
+*Always outputs true or false*
+
+//Example
+
+console.log(13 > 10);
+//Output: true
+//Explanation: 13 is greater than 10, so the output is true.
+
+console.log(5 < 10);
+//Output: true
+//Explanation: 5 is less than 10, so the output is true.
+
+console.log(5 >= 5);
+//Output: true
+//Explanation: 5 is greater than or equal to 5, so the output is true.
+
+console.log(5 <= 7);
+//Output: true
+//Explanation: 5 is less than or equal to 7, so the output is true.
+
+console.log(10 > 10);
+//Output: false
+//Explanation: 10 is not greater than 10, so the output is false.
+
+console.log(10 < 10);
+//Output: false
+//Explanation: 10 is not less than 10, so the output is false.
+
+console.log(10 >= 10);
+//Output: true
+//Explanation: 10 is greater than or equal to 10, so the output is true.
+
+console.log(10 <= 10);
+//Output: true
+//Explanation: 10 is less than or equal to 10, so the output is true.
