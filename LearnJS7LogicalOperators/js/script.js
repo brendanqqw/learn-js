@@ -1,13 +1,11 @@
-//OR Operator
-//Either CONDITIONS SHOULD BE TRUE
+let experience = 5;
+let language = "C++";
 
-let hasDegree = true;
-let experience = 3;
+if (experience > 1 || language === "C#") {
+  console.log("You are qualified!");
+} else {
+  console.log("You are not qualified!");
+}
 
-console.log(hasDegree || experience > 2);
-//Output: true
-//Explanation: hasDegree is true, so the condition is true.
-
-console.log(hasDegree || experience > 4);
-//Output: true
-//Explanation: hasDegree is true, so the condition is true.
+// Output: You are qualified!
+//Explanation: The condition experience > 1 || language === "C#" is true because the first part of the condition is true. The first part of the condition is true because the value of the variable experience is greater than 1. Therefore, the code block inside the if statement is executed, and the message You are qualified! is printed to the console.
