@@ -1,31 +1,6 @@
-console.log(13 > 10);
-//Output: true
-//Explanation: 13 is greater than 10, so the output is true.
+let x = 12;
+let y = "15";
 
-console.log(5 < 10);
-//Output: true
-//Explanation: 5 is less than 10, so the output is true.
-
-console.log(5 >= 5);
-//Output: true
-//Explanation: 5 is greater than or equal to 5, so the output is true.
-
-console.log(5 <= 7);
-//Output: true
-//Explanation: 5 is less than or equal to 7, so the output is true.
-
-console.log(10 > 10);
-//Output: false
-//Explanation: 10 is not greater than 10, so the output is false.
-
-console.log(10 < 10);
-//Output: false
-//Explanation: 10 is not less than 10, so the output is false.
-
-console.log(10 >= 10);
-//Output: true
-//Explanation: 10 is greater than or equal to 10, so the output is true.
-
-console.log(10 <= 10);
-//Output: true
-//Explanation: 10 is less than or equal to 10, so the output is true.
+alert(x > y);
+// Output: false
+// Explanation: The value of x is 12 and the value of y is "15". The greater than operator (>) compares the values of x and y. Since the value of x is less than the value of y, the output is false.
