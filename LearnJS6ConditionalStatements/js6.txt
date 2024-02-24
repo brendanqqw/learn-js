@@ -188,6 +188,6 @@ console.log("Tnak you!");
 
 
 *ELSE IF runs sequentially when the IF comparison is false*
-
+*ELSE SHOULD BE IN THE LAST NOT IN THE MIDDLE*
 
 //
