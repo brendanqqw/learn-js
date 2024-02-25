@@ -11,4 +11,7 @@ switch (difficulty) {
   case 3:
     console.log("Hard");
     break;
+  default:
+    console.log("Invalid Difficulty");
+    break;
 }
