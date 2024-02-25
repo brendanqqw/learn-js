@@ -1,0 +1,3 @@
+SWITCH Statement
+Are used to execute code depending on a case. It acts like Conditional Statements
+but can only check equality
