@@ -27,3 +27,6 @@ Without it, the switch statement will continue running all coed blocks.
 // DEFAULT Keyword
 Default is used to handle all cases that weren't specified.
 
+
+//COMMON case
+You can specify two or more cases in a codeblock

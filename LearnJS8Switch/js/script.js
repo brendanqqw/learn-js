@@ -1,17 +1,16 @@
 //Example
-let difficulty = 3;
 
-switch (difficulty) {
-  case 1:
-    console.log("Easy");
-    break;
+let num = 3;
+switch (num) {
   case 2:
-    console.log("Normal");
+  case 4:
+    console.log("Even");
     break;
   case 3:
-    console.log("Hard");
+  case 5:
+    console.log("Odd");
     break;
   default:
-    console.log("Invalid Difficulty");
+    console.log("Unknown");
     break;
 }
