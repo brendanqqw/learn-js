@@ -1,6 +1,7 @@
 //Example
 
 let num = 3;
+
 switch (num) {
   case 2:
   case 4:
