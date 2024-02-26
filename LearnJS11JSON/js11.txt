@@ -43,10 +43,12 @@ let person = {
     0: {
       name: "Rex",
       type: "Dog",
+      breed: "German Shepherd",
     },
     1: {
       name: "Fluffy",
       type: "Cat",
+      breed: "Siamese",
     },
   },
 };
@@ -54,3 +56,45 @@ let person = {
 console.log(person);
 
 
+//JSON Read
+You can READ specific values of a JSON by using its key surrounded by []
+
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+};
+
+console.log(person["firstName"]);
+console.log(person["lastName"]);
+
+
+
+//You can also READ specific values of a JSON by using a persion followed by the key
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+};
+
+//Only Works on a "String" Key
+console.log(person.firstName);
+console.log(person.lastName);
+
+
+
+//Another Example
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+};
+
+//Only Works on a "String" Key
+console.log(`${person.firstName} ${person.lastName}`);
+//Output: John Doe
+
+
+
+
+//
