@@ -1,0 +1,3 @@
+WHILE Loop
+is used to execute a block of code, while the condition is met/true.
+
