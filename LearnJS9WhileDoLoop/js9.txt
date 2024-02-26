@@ -94,3 +94,8 @@ while(people[i]){ //while there is a person in the array
 }
 
 //Output: Gibert
+
+
+//DO-WHILE Loop
+Always runs the code once before checking the condition.
+

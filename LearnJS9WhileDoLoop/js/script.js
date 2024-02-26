@@ -1,13 +1,5 @@
-let people = ["David", "Alenere", "Gibert", "James"]; //array of people
-let i = 0; //index of the array
-let search = "Gibert"; //search for Gibert in the array
+let i = 0; 
 
-while(people[i]){ //while there is a person in the array
-    if(people[i] === search){ //if the person is Gibert
-        console.log(people[i]); //print Gibert
-        break; //stop the loop
-    }
-    i++; //increment the index
-}
-
-//Output: Gibert
+do{ // do while loop
+  console.log("Hello World"); // print "Hello World"
+}while(i > 5); // condition is false, so it will print "Hello World" once
