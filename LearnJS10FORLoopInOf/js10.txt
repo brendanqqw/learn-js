@@ -104,4 +104,28 @@ for(let i in people) { // Loop through the array
 // Output: 0, 1, 2, 3
 
 
-//
+//ANOTHER EXAMPLE
+let people = ["David", "Alenere", "Gibert", "James"]; // Array of people
+
+for(let i in people) { // Loop through the array
+    console.log(people[i]); // Print the name of the person
+    break; // Break the loop
+}
+
+// Output: David
+
+
+
+//FOR/OF Loop
+Are used for iterating over Arrays. It returns the value of each element.
+
+let people = ["David", "Alenere", "Gibert", "James"]; // Array of people
+
+for(let person of people){ // Loop through the array
+    console.log(person); // Print each person in the array
+}
+
+// Output: David
+//         Alenere
+//         Gibert
+//         James

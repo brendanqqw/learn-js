@@ -1,8 +1,7 @@
 let people = ["David", "Alenere", "Gibert", "James"]; // Array of people
 
-for(let i in people) { // Loop through the array
-    console.log(people[i]); // Print the name of the person
-    break; // Break the loop
+for(let person of people){ // Loop through the array
+    console.log(person); // Print each person in the array
 }
 
 // Output: David
