@@ -1,12 +1,12 @@
-let i = 0;
+let people = ["David", "Alenere", "Gibert", "James"]; //array of people
+let i = 0; //index
 
-while (i < 5) {
-  console.log(i);
-  i++; //Why i++? It's because if we don't increment i, the loop will run forever.
+while(people[i]){ //while there is a person in the array
+    console.log(people[i]); //print the person
+    i++; //increment the index
 }
 
-// Output:  0
-//          1
-//          2
-//          3
-//          4
+//output: David
+//        Alenere
+//        Gibert
+//        James
