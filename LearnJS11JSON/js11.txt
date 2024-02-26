@@ -1,0 +1,9 @@
+JSON (JavaScript Object Notation)
+Is a file format that is commonly used in transporting data, via API or other means
+
+//JSON Example
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+};
