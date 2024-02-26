@@ -6,10 +6,11 @@ while(people[i]){
     i++; //increment the index
  //while loop
 
-  if(i === 1){ //if the index is 1
-    break; //break the loop when the index is 1
+  if(i === 2){ //if the index is 2
+    break; //break the loop
   }
 }
 
 //output: David
+//        Alenere
 
