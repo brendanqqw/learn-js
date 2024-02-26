@@ -76,3 +76,32 @@ for(let i = 0; i < people.length; i++) { // Loop through the array
 
 // Output: David
 //         Alenere
+
+
+FOR/IN Loop
+Are used for iterating over JSONs or Arrays. It returns the key or index of each item.
+
+let people = ["David", "Alenere", "Gibert", "James"]; // Array of people
+
+for(let i in people) { // Loop through the array
+    console.log(people[i]); // Print the name of the person
+    break; // Break the loop
+}
+
+// Output: David
+//         Alenere
+//         Gibert
+//         James
+
+
+//ANOTHER EXAMPLE FOR IN LOOP
+let people = ["David", "Alenere", "Gibert", "James"]; // Array of people
+
+for(let i in people) { // Loop through the array
+    console.log(i); // Output the index
+}
+
+// Output: 0, 1, 2, 3
+
+
+//
