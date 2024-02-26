@@ -1,8 +1,6 @@
-for(let i = 0; i < 5; i++){ // i = 0, 1, 2, 3, 4 
-    console.log("Hello"); // Hello, Hello, Hello, Hello, Hello
+
+let people = ["David", "Alenere", "Gibert", "James"]; // Array of people
+for(let i = people.length-1; i >= 0;i--){// Loop through the array
+  console.log(people[i]); // Print each person
 }
-// Output: Hello
-//         Hello
-//         Hello
-//         Hello
-//         Hello
+// Output: James, Gibert, Alenere, David
