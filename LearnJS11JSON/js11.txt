@@ -1,9 +1,56 @@
 JSON (JavaScript Object Notation)
 Is a file format that is commonly used in transporting data, via API or other means
 
+JSON 
+A JSON Data should have a key | value pair and a colon : in the middle
+JSONs should be surrounded by {}
+
+let person = {firstname: "Brendan"};
+    variable    key         value
+
+A JSON can have mulitple JSON Data by using commas as separators.
+JSONs should be surrounded by {}.
+
+
 //JSON Example
 let person = {
   firstName: "John",
   lastName: "Doe",
   age: 25,
 };
+
+
+A JSON can also have arrays as its value.
+
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+  hobbies: ["coding", "eating", "sleeping"],
+};
+
+console.log(person);
+
+
+//A JSON can also have JSONs as its value
+
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+  hobbies: ["coding", "eating", "sleeping"],
+  pets: {
+    0: {
+      name: "Rex",
+      type: "Dog",
+    },
+    1: {
+      name: "Fluffy",
+      type: "Cat",
+    },
+  },
+};
+
+console.log(person);
+
+
