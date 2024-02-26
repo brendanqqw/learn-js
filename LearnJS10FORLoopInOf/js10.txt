@@ -1,3 +1,11 @@
+FOR Loop
+is used to execute a block of code, while the condition is met/true.
+
+for(variable;condition;operation){
+
+}
+
+// EXAMPLE FOR Loop
 for(let i = 0; i < 5; i++){ // i = 0, 1, 2, 3, 4 
     console.log("Hello"); // Hello, Hello, Hello, Hello, Hello
 }
