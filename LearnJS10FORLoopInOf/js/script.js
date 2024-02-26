@@ -1,7 +1,12 @@
-let people = ["David", "Alenere", "Gibert", "James"];
-let i = 0;
+let people = ["David", "Alenere", "Gibert", "James"]; // Array of people
 
-while(people[i]){ // while(people[i] != undefined)
-    console.log(people[i]); // David, Alenere, Gibert, James
-    i++; // 1, 2, 3, 4
+for(let i = 0; i < people.length; i++) { // Loop through the array
+    console.log(people[i]); // Print the name of the person
+
+    if( i === 1) { // If the index is 1
+        break; // Stop the loop
+    }
 }
+
+// Output: David
+//         Alenere
