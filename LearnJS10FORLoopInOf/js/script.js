@@ -1,21 +1,9 @@
-let people = ["David", "Alenere", "Gibert", "James"]; // Array of people
+let people = ["Brendan", "Raul", "Basil", "Degrano"]; // Array of people
+let search = "bAsIl"; // Search for this name
 
-let i = 1;
-for(let person of people){ // Loop through the array
-    console.log(`${i}. ${person}`); // Print each person in the array
-    i++;
+for (let person = 0; i < people.length; i++) { // Loop through the array
+    if (people[person].toLowerCase() === search.toLowerCase()) { // Check if the name is found
+        console.log(`${search} is found in the array`); // Print the result
+        break; // Break the loop
+    }
 }
-
-// Output: 1. David
-//         2. Alenere
-//         3. Giber
-//         4. James
-
-for(let person in people){ // Loop through the array
-    console.log(`${parseInt(person)+1}. ${people[person]}`); // Print Index
-}
-
-// Output: 1. David
-//         2. Alenere
-//         3. Gibert
-//         4. James
