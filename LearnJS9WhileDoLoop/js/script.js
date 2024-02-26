@@ -1,9 +1,15 @@
 let people = ["David", "Alenere", "Gibert", "James"]; //array of people
-let i = people.length-1; //index of the last person in the array
+let i = 0; //index of the array
 
-while(people[i]){ //while there is a person in the array
-    console.log(people[i]); //print the person
-    i--; //decrement the index 
+while(people[i]){
+    console.log(people[i]); //print the people in the array
+    i++; //increment the index
+ //while loop
+
+  if(i === 1){ //if the index is 1
+    break; //break the loop when the index is 1
+  }
 }
 
+//output: David
 
