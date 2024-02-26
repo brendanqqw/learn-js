@@ -38,4 +38,24 @@ David
 i = -1
 END OF LOOP
 
-//
+
+
+// FOR LOOP vs WHILE Loop
+For loops are used when the number of iterations are known
+While loops are used when the number of iterations are nknown.
+
+//FOR LOOP
+let people = ["David", "Alenere", "Gibert", "James"];
+
+for(let 1 = 0; i < people.length;i++){
+    console.log(people[i];)
+}
+
+//WHILE LOOP
+let people = ["David", "Alenere", "Gibert", "James"];
+let i = 0;
+
+while(people[i]){ // while(people[i] != undefined)
+    console.log(people[i]); // David, Alenere, Gibert, James
+    i++; // 1, 2, 3, 4
+}
