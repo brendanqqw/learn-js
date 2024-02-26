@@ -95,6 +95,8 @@ console.log(`${person.firstName} ${person.lastName}`);
 //Output: John Doe
 
 
+*USE  BRACKETS FOR NUMBER AND USE DOT NOTATION FOR STRINGS*
+
 
 
 //
