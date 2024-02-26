@@ -26,3 +26,16 @@ for(let i = people.length-1; i >= 0;i--){// Loop through the array
   console.log(people[i]); // Print each person
 }
 // Output: James, Gibert, Alenere, David
+
+//i = 3
+James
+//i = 2
+Gibert
+//i = 1
+Alenere
+//i = 0
+David
+i = -1
+END OF LOOP
+
+//
