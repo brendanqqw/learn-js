@@ -27,6 +27,7 @@ let people = [
 ];
 for (let i = 0; i < people.length; i++) {
   console.log(`First Name : ${people[i].firstName}`);
-  console.log(`Last Name: ${people[i].lastName}`);
-  console.log(`Age: ${people[i].age}`);
+  console.log(`Last Name  : ${people[i].lastName}`);
+  console.log(`Age        : ${people[i].age}`);
+  console.log(" ");
 }
