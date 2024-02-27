@@ -118,3 +118,49 @@ let person = {
 
 console.log(person["hobbies"][0]); //Explanation: We can access the array elements using the index number. In this case, the index number is 0. So, it will print "Coding" in the console.
 console.log(person.hobbies[1]); //Explanation: We can also access the array elements using the dot notation. In this case, the index number is 1. So, it will print "Eating" in the console.
+
+
+//You can read JSON values in a JSON by using its key and accessing it normally by key.
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+  hobbies: ["coding", "eating", "sleeping"],
+  pets: {
+    0: {
+      name: "Rex",
+      type: "Dog",
+      breed: "German Shepherd",
+    },
+    1: {
+      name: "Fluffy",
+      type: "Cat",
+      breed: "Siamese",
+    },
+  },
+};
+
+console.log(person["pets"][0]["name"]); //Explanation: person["pets"] returns the pets object, then we access the first pet object using the index 0, and then we access the name property of the first pet object.
+console.log(person.pets[1].breed); // Explanation: person.pets returns the pets object, then we access the second pet object using the index 1, and then we access the breed property of the second pet object.
+
+
+
+//JSON WRite
+You can UPDATE specific values of a JSON by uisng its key surrounded by []
+and assigning a value to it.
+
+let person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 25,
+};
+
+//Update Existing "key | value"
+person["firstName"] = "Brendan";
+console.log(person);
+
+//Create New Key | Value"
+person["middleInitial"] = "B";
+console.log(person);
+
+Assigning a value to a non-existenst key will result into adding it.
