@@ -1,4 +1,19 @@
-let strPerson = `{"firstName":"John", "lastName":"Doe", "age":25}`; // a string with JSON data
-
-let person = JSON.parse(strPerson); // convert the string into a JavaScript object
-console.log(person.firstName); // John
+let people = [
+  {
+    firstName: "John",
+    lastName: "Doe",
+    age: 50,
+  },
+  {
+    firstName: "Anna",
+    lastName: "Smith",
+    age: 25,
+  },
+  {
+    firstName: "Peter",
+    lastName: "Jones",
+    age: 30,
+  },
+];
+console.log(people); // Array(3) [Object, Object, Object]
+console.log(people[1].firstName); // Anna
