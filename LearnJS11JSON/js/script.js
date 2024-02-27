@@ -1,10 +1,4 @@
-let person = {
-  firstName: "John",
-  lastName: "Doe",
-  age: 25,
-};
+let strPerson = `{"firstName":"John", "lastName":"Doe", "age":25}`; // a string with JSON data
 
-console.log(person);
-let strPerson = JSON.stringify(person); //Explanation: JSON.stringify() method converts a JavaScript object or value to a JSON string
-//Turns the person object into a JSON string
-console.log(strPerson); //Output: {"firstName":"John","lastName":"Doe","age":25}
+let person = JSON.parse(strPerson); // convert the string into a JavaScript object
+console.log(person.firstName); // John

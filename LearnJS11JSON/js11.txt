@@ -184,3 +184,12 @@ let strPerson = JSON.stringify(person); //Explanation: JSON.stringify() method c
 console.log(strPerson); //Output: {"firstName":"John","lastName":"Doe","age":25}
 
 
+//JSON Parsing
+You can convert valid Strings into JSON by using JSON.parse() method.
+
+let strPerson = `{"firstName":"John", "lastName":"Doe", "age":25}`; // a string with JSON data
+
+let person = JSON.parse(strPerson); // convert the string into a JavaScript object
+console.log(person.firstName);  // John
+
+If a string is invalid it would throw an error at the console.
