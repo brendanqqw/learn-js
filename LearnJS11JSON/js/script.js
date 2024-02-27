@@ -5,9 +5,11 @@ let person = {
 };
 
 //Update Existing "key | value"
-person["firstName"] = "Brendan";
-console.log(person);
+person["firstName"] = "Brendan"; //Explanation: adds a new key | value to the object
+//person.firstName = "Brendan"; //Explanation: adds a new key | value to the object
+console.log(person); //Output: {firstName: "Brendan", lastName: "Doe", age: 25}
 
 //Create New Key | Value"
-person["middleInitial"] = "B";
-console.log(person);
+person["middleInitial"] = "B"; //Explanation: adds a new key | value to the object
+person.middleInitial = "B"; //Explanation: adds a new key | value to the object
+console.log(person); //Output: {firstName: "Brendan", lastName: "Doe", age: 25, middleInitial: "B"}
