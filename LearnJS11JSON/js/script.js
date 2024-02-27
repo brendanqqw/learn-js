@@ -1,17 +1,9 @@
 let person = {
   firstName: "John",
   lastName: "Doe",
-  3: 25,
+  age: 25,
+  hobbies: ["Coding", "Eating", "Sleeping"],
 };
 
-//Only Works on a "String" Key
-console.log(`${person.firstName} ${person.lastName}`);
-//Output: John Doe
-
-console.log(person.3);
-//Output error because it is not a string key
-
-console.log(person["3"]);
-//Output: 25 shows the value of the key 3 because it is a string key
-
-
+console.log(person["hobbies"][0]); //Explanation: We can access the array elements using the index number. In this case, the index number is 0. So, it will print "Coding" in the console.
+console.log(person.hobbies[1]); //Explanation: We can also access the array elements using the dot notation. In this case, the index number is 1. So, it will print "Eating" in the console.
