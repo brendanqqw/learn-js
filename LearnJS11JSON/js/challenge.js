@@ -29,5 +29,5 @@ for (let i = 0; i < people.length; i++) {
   console.log(`First Name : ${people[i].firstName}`);
   console.log(`Last Name  : ${people[i].lastName}`);
   console.log(`Age        : ${people[i].age}`);
-  console.log(" ");
+  console.log(" "); //Explaination: This is to add a space between each person's information
 }
