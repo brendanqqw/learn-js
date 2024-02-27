@@ -1,15 +1,36 @@
 JSON & FOR/IN LOOP
 We can use FOR/IN Loop to Iterate over all the keys inside a JSON.
 
+// IN 
 let person = {
   firstName: "Brendan",
   lastName: "Degrano",
   age: 22,
 };
-for (let i in person) { //Explaination: This is a for-in loop that iterates through the properties of the person object
-  console.log(i); //Explaination: This logs the property name
+for (let i in person) {
+  //Explaination: This is a for-in loop that iterates through the properties of the person object
+  console.log(`${i}: ${person[i]}`);
 }
 
-//Output: firstName
-//        lastName
-//        age
+//Output:
+// firstName: Brendan
+// lastName: Degrano
+// age: 22
+
+//Object.keys() Method
+Returns the keys of JSON in an array format.
+let person = {
+  firstName: "Brendan",
+  lastName: "Degrano",
+  age: 22,
+};
+
+let keys = Object.keys(person); //Object.keys() is a method that returns an array of a given object's own property names, in the same order as we get with a normal loop.
+console.log(keys); //Explanation: This will return an array of the keys in the object person.
+
+//Output: 
+// [ 'firstName', 'lastName', 'age' ]
+
+
+
+//ANOTHER EXAMPLE
